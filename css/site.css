@@ -1,0 +1,227 @@
+body {
+  background-position: center center; /*		*/
+  background-size: cover;
+  background-color: #ffffff; /* 	white		*/
+}
+
+/*		*/
+footer {
+  /*		*/
+  color: #041e42; /*		*/
+  font-size: 70%; /*		*/
+}
+
+/*		*/
+h1 {
+  padding-top: 20px; /*		*/
+  font-style: bold; /*		*/
+  color: #041e42; /*		*/
+}
+
+/*		*/
+table.center {
+  /*		*/
+  margin-left: auto; /*		*/
+  margin-right: auto; /*		*/
+}
+
+/*		*/
+table-title {
+  /*		*/
+  display: block; /*		*/
+  margin: auto; /*		*/
+  max-width: 60%; /*		*/
+  padding: 5px; /*		*/
+  width: 40%; /*		*/
+}
+
+/*		*/
+.table-title h3 {
+  /*		*/
+  color: #fafafa; /*		*/
+  font-style: normal; /*		*/
+  font-family: "Roboto", helvetica, arial, sans-serif; /*		*/
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1); /*		*/
+  text-transform: uppercase; /*		*/
+}
+
+th {
+  /*		*/
+  color: #d5dde5; /*		*/
+  background: #041e42; /*		*/
+  border-bottom: 4px solid #9ea7af; /*		*/
+  border-right: 1px solid #343a45; /*		*/
+  padding: 24px; /*		*/
+  text-align: left; /*		*/
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /*		*/
+  vertical-align: middle; /*		*/
+}
+
+/*		*/
+th:first-child {
+  /*		*/
+  border-top-left-radius: 3px; /*		*/
+}
+
+/*		*/
+th:last-child {
+  /*		*/
+  border-top-right-radius: 3px; /*		*/
+  border-right: none; /*		*/
+}
+
+/*		*/
+tr:hover td {
+  /*		*/
+  background: #c69214; /*		*/
+  color: #ffffff; /*		*/
+  border-top: 1px solid #22262e; /*		*/
+  border-bottom: 1px solid #22262e; /*		*/
+}
+
+/*		*/
+tr:first-child {
+  /*		*/
+  border-top: none; /*		*/
+}
+
+/*		*/
+tr:last-child {
+  /*		*/
+  border-bottom: none; /*		*/
+}
+
+/*		*/
+tr:nth-child(odd) td {
+  /*		*/
+  background: #ebebeb; /*		*/
+}
+
+/*		*/
+tr:nth-child(odd):hover td {
+  /*		*/
+  background: #c69214; /*		*/
+}
+
+/*		*/
+tr:last-child td:first-child {
+  /*		*/
+  border-bottom-left-radius: 3px; /*		*/
+}
+
+/*		*/
+tr:last-child td:last-child {
+  /*		*/
+  border-bottom-right-radius: 3px; /*		*/
+}
+
+/*		*/
+td {
+  /*		*/
+  background: #ffffff; /*		*/
+  padding: 20px; /*		*/
+  text-align: left; /*		*/
+  vertical-align: middle; /*		*/
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1); /*		*/
+  border-right: 1px solid #c1c3d1; /*		*/
+}
+
+/*		*/
+td:last-child {
+  /*		*/
+  border-right: 0px; /*		*/
+}
+
+/*		*/
+th.text-left {
+  /*		*/
+  text-align: left; /*		*/
+}
+
+/*		*/
+th.text-center {
+  /*		*/
+  text-align: center; /*		*/
+}
+
+/*		*/
+th.text-right {
+  /*		*/
+  text-align: right; /*		*/
+}
+
+/*		*/
+td.text-left {
+  /*		*/
+  text-align: left; /*		*/
+}
+
+/*		*/
+td.text-center {
+  /*		*/
+  text-align: center; /*		*/
+}
+
+/*		*/
+td.text-right {
+  /*		*/
+  text-align: right; /*		*/
+}
+
+a:hover,
+a:focus {
+  /*		*/
+  color: #ffffff; /*		*/
+  font-weight: bolder; /*		*/
+  font-size: 120%; /*		*/
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+  /*		*/
+  max-width: 280px; /*		*/
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: px) {
+  /*		*/
+  .jumbotron {
+    /*		*/
+    margin-top: 20px; /*		*/
+  }
+  .body-content {
+    /*		*/
+    padding: 0; /*		*/
+  }
+}
+
+/*		*/
+.marginbuttons {
+  /*		*/
+  margin-left: 10px; /*		*/
+}
+
+/*		*/
+.outer-wrapper {
+  /*		*/
+  display: table; /*		*/
+  width: 100%; /*		*/
+  height: 100%; /*		*/
+} /*		*/
+
+/*		*/
+.inner-wrapper {
+  /*		*/
+  display: table-cell; /*		*/
+  vertical-align: middle; /*		*/
+  /*padding:15px;	*/ /*		*/
+}
+
+#icon {
+  max-width: 900px;
+  margin: 1% auto;
+}
+
+/*		*/
